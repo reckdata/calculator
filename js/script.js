@@ -11,13 +11,13 @@ var number2 = parseInt(prompt("Enter another number: "));
 var addNumbers = function(number1, number2){
     return number1 + number2;
 }
-//alert(addNumbers(number1, number2))
+alert("The sum is " + addNumbers(number1, number2))
 
 // subtraction
 var subtractNumbers = function(number1, number2) {
     return number1 - number2;
 }
-//alert(subtractNumbers(10, 5));
+//alert("The subtraction is " + subtractNumbers(10, 5));
 
 // multiplication
 var multiplyNumbers = function(number1, number2) {

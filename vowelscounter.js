@@ -1,16 +1,16 @@
-/* function countVowel(string) {
+function countVowels(str) {
     // find the count of vowels
-    const count = string.match(/[aeiou]/gi).length;
+    const count = str.match(/[aeiou]/gi).length;
 
     //return the number of vowels
     return count;
 }
 
-let string = "a".toLowerCase;
+let string = "a";
 
-console.log(countVowel(string));
+console.log(countVowels(string));
 
- */
+
 
 
 // program to count number of vowels in a sentence string
@@ -36,8 +36,8 @@ function countVowel(str) {
     return count;
 }
 
-const string = "CATS CATERED THE EVENT";
+const string1 = "CATS CATERED THE EVENT";
 const strign = "CaTs CateReD tHe EveNT";
 
-console.log(countVowel(string));
+console.log(countVowel(string1));
 console.log(countVowel(strign));
